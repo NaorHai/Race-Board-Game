@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17BEF4B71C31270900F54D09 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17BEF4B61C31270900F54D09 /* main.cpp */; };
+		17BEF4BF1C3127CB00F54D09 /* fileParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17BEF4BE1C3127CB00F54D09 /* fileParser.cpp */; };
+		17BEF4C21C3127E500F54D09 /* competitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17BEF4C11C3127E500F54D09 /* competitor.cpp */; };
+		17BEF4C51C3127F800F54D09 /* tile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17BEF4C41C3127F800F54D09 /* tile.cpp */; };
+		17BEF4C81C31281A00F54D09 /* raceTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17BEF4C71C31281A00F54D09 /* raceTrack.cpp */; };
+		17BEF4CB1C31282F00F54D09 /* point2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17BEF4CA1C31282F00F54D09 /* point2d.cpp */; };
+		17BEF4CE1C31905B00F54D09 /* frog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17BEF4CD1C31905B00F54D09 /* frog.cpp */; };
+		17BEF4D11C31906900F54D09 /* rabbit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17BEF4D01C31906900F54D09 /* rabbit.cpp */; };
+		17BEF4D41C31908200F54D09 /* turtle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17BEF4D31C31908200F54D09 /* turtle.cpp */; };
+		17BEF4D71C3190AE00F54D09 /* easyTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17BEF4D61C3190AE00F54D09 /* easyTile.cpp */; };
+		17BEF4DA1C3190C900F54D09 /* mediumTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17BEF4D91C3190C900F54D09 /* mediumTile.cpp */; };
+		17BEF4DD1C3190DD00F54D09 /* waterTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17BEF4DC1C3190DD00F54D09 /* waterTile.cpp */; };
+		17BEF4E01C3190F600F54D09 /* cropTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17BEF4DF1C3190F600F54D09 /* cropTile.cpp */; };
+		17BEF4E31C34149D00F54D09 /* endTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17BEF4E21C34149D00F54D09 /* endTile.cpp */; };
+		17BEF4FC1C350A0000F54D09 /* startTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17BEF4FB1C350A0000F54D09 /* startTile.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		17BEF4B11C31270900F54D09 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		17BEF4B31C31270900F54D09 /* Code race */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Code race"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BEF4B61C31270900F54D09 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		17BEF4BD1C3127C400F54D09 /* fileParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileParser.h; sourceTree = "<group>"; };
+		17BEF4BE1C3127CB00F54D09 /* fileParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fileParser.cpp; sourceTree = "<group>"; };
+		17BEF4C01C3127DF00F54D09 /* competitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = competitor.h; sourceTree = "<group>"; };
+		17BEF4C11C3127E500F54D09 /* competitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = competitor.cpp; sourceTree = "<group>"; };
+		17BEF4C31C3127F100F54D09 /* tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tile.h; sourceTree = "<group>"; };
+		17BEF4C41C3127F800F54D09 /* tile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tile.cpp; sourceTree = "<group>"; };
+		17BEF4C61C31281500F54D09 /* raceTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = raceTrack.h; sourceTree = "<group>"; };
+		17BEF4C71C31281A00F54D09 /* raceTrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = raceTrack.cpp; sourceTree = "<group>"; };
+		17BEF4C91C31282900F54D09 /* point2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = point2d.h; sourceTree = "<group>"; };
+		17BEF4CA1C31282F00F54D09 /* point2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = point2d.cpp; sourceTree = "<group>"; };
+		17BEF4CC1C31905400F54D09 /* frog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = frog.h; sourceTree = "<group>"; };
+		17BEF4CD1C31905B00F54D09 /* frog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = frog.cpp; sourceTree = "<group>"; };
+		17BEF4CF1C31906200F54D09 /* rabbit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rabbit.h; sourceTree = "<group>"; };
+		17BEF4D01C31906900F54D09 /* rabbit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rabbit.cpp; sourceTree = "<group>"; };
+		17BEF4D21C31907B00F54D09 /* turtle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = turtle.h; sourceTree = "<group>"; };
+		17BEF4D31C31908200F54D09 /* turtle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = turtle.cpp; sourceTree = "<group>"; };
+		17BEF4D51C3190A700F54D09 /* easyTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easyTile.h; sourceTree = "<group>"; };
+		17BEF4D61C3190AE00F54D09 /* easyTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = easyTile.cpp; sourceTree = "<group>"; };
+		17BEF4D81C3190BF00F54D09 /* mediumTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mediumTile.h; sourceTree = "<group>"; };
+		17BEF4D91C3190C900F54D09 /* mediumTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mediumTile.cpp; sourceTree = "<group>"; };
+		17BEF4DB1C3190D800F54D09 /* waterTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = waterTile.h; sourceTree = "<group>"; };
+		17BEF4DC1C3190DD00F54D09 /* waterTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = waterTile.cpp; sourceTree = "<group>"; };
+		17BEF4DE1C3190F000F54D09 /* cropTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cropTile.h; sourceTree = "<group>"; };
+		17BEF4DF1C3190F600F54D09 /* cropTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cropTile.cpp; sourceTree = "<group>"; };
+		17BEF4E11C34149400F54D09 /* endTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endTile.h; sourceTree = "<group>"; };
+		17BEF4E21C34149D00F54D09 /* endTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = endTile.cpp; sourceTree = "<group>"; };
+		17BEF4FA1C3509F700F54D09 /* startTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = startTile.h; sourceTree = "<group>"; };
+		17BEF4FB1C350A0000F54D09 /* startTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = startTile.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17BEF4B01C31270900F54D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17BEF4AA1C31270900F54D09 = {
+			isa = PBXGroup;
+			children = (
+				17BEF4B51C31270900F54D09 /* Code race */,
+				17BEF4B41C31270900F54D09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17BEF4B41C31270900F54D09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17BEF4B31C31270900F54D09 /* Code race */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17BEF4B51C31270900F54D09 /* Code race */ = {
+			isa = PBXGroup;
+			children = (
+				17BEF4B61C31270900F54D09 /* main.cpp */,
+				17BEF4BD1C3127C400F54D09 /* fileParser.h */,
+				17BEF4BE1C3127CB00F54D09 /* fileParser.cpp */,
+				17BEF4C91C31282900F54D09 /* point2d.h */,
+				17BEF4CA1C31282F00F54D09 /* point2d.cpp */,
+				17BEF4C61C31281500F54D09 /* raceTrack.h */,
+				17BEF4C71C31281A00F54D09 /* raceTrack.cpp */,
+				17BEF4C01C3127DF00F54D09 /* competitor.h */,
+				17BEF4C11C3127E500F54D09 /* competitor.cpp */,
+				17BEF4CC1C31905400F54D09 /* frog.h */,
+				17BEF4CD1C31905B00F54D09 /* frog.cpp */,
+				17BEF4CF1C31906200F54D09 /* rabbit.h */,
+				17BEF4D01C31906900F54D09 /* rabbit.cpp */,
+				17BEF4D21C31907B00F54D09 /* turtle.h */,
+				17BEF4D31C31908200F54D09 /* turtle.cpp */,
+				17BEF4C31C3127F100F54D09 /* tile.h */,
+				17BEF4C41C3127F800F54D09 /* tile.cpp */,
+				17BEF4D51C3190A700F54D09 /* easyTile.h */,
+				17BEF4D61C3190AE00F54D09 /* easyTile.cpp */,
+				17BEF4D81C3190BF00F54D09 /* mediumTile.h */,
+				17BEF4D91C3190C900F54D09 /* mediumTile.cpp */,
+				17BEF4DE1C3190F000F54D09 /* cropTile.h */,
+				17BEF4DF1C3190F600F54D09 /* cropTile.cpp */,
+				17BEF4DB1C3190D800F54D09 /* waterTile.h */,
+				17BEF4DC1C3190DD00F54D09 /* waterTile.cpp */,
+				17BEF4FA1C3509F700F54D09 /* startTile.h */,
+				17BEF4FB1C350A0000F54D09 /* startTile.cpp */,
+				17BEF4E11C34149400F54D09 /* endTile.h */,
+				17BEF4E21C34149D00F54D09 /* endTile.cpp */,
+			);
+			path = "Code race";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17BEF4B21C31270900F54D09 /* Code race */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17BEF4BA1C31270900F54D09 /* Build configuration list for PBXNativeTarget "Code race" */;
+			buildPhases = (
+				17BEF4AF1C31270900F54D09 /* Sources */,
+				17BEF4B01C31270900F54D09 /* Frameworks */,
+				17BEF4B11C31270900F54D09 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Code race";
+			productName = "Code race";
+			productReference = 17BEF4B31C31270900F54D09 /* Code race */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17BEF4AB1C31270900F54D09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Amit Papushe Shely";
+				TargetAttributes = {
+					17BEF4B21C31270900F54D09 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 17BEF4AE1C31270900F54D09 /* Build configuration list for PBXProject "Code race" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17BEF4AA1C31270900F54D09;
+			productRefGroup = 17BEF4B41C31270900F54D09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17BEF4B21C31270900F54D09 /* Code race */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17BEF4AF1C31270900F54D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BEF4DA1C3190C900F54D09 /* mediumTile.cpp in Sources */,
+				17BEF4BF1C3127CB00F54D09 /* fileParser.cpp in Sources */,
+				17BEF4C81C31281A00F54D09 /* raceTrack.cpp in Sources */,
+				17BEF4E31C34149D00F54D09 /* endTile.cpp in Sources */,
+				17BEF4CB1C31282F00F54D09 /* point2d.cpp in Sources */,
+				17BEF4FC1C350A0000F54D09 /* startTile.cpp in Sources */,
+				17BEF4E01C3190F600F54D09 /* cropTile.cpp in Sources */,
+				17BEF4B71C31270900F54D09 /* main.cpp in Sources */,
+				17BEF4CE1C31905B00F54D09 /* frog.cpp in Sources */,
+				17BEF4D41C31908200F54D09 /* turtle.cpp in Sources */,
+				17BEF4C21C3127E500F54D09 /* competitor.cpp in Sources */,
+				17BEF4D71C3190AE00F54D09 /* easyTile.cpp in Sources */,
+				17BEF4C51C3127F800F54D09 /* tile.cpp in Sources */,
+				17BEF4D11C31906900F54D09 /* rabbit.cpp in Sources */,
+				17BEF4DD1C3190DD00F54D09 /* waterTile.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		17BEF4B81C31270900F54D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		17BEF4B91C31270900F54D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		17BEF4BB1C31270900F54D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17BEF4BC1C31270900F54D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17BEF4AE1C31270900F54D09 /* Build configuration list for PBXProject "Code race" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BEF4B81C31270900F54D09 /* Debug */,
+				17BEF4B91C31270900F54D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17BEF4BA1C31270900F54D09 /* Build configuration list for PBXNativeTarget "Code race" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BEF4BB1C31270900F54D09 /* Debug */,
+				17BEF4BC1C31270900F54D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17BEF4AB1C31270900F54D09 /* Project object */;
+}
